@@ -9,7 +9,7 @@ library(tidyverse)
 
 
 # Load Data ####
-Data <- haven::read_sav("_SharedFolder_transition/data/ULA011-données.Sav") %>%  
+Data <- haven::read_sav("_SharedFolder_quorum-enviro/data/ULA011-données.Sav") %>%  
   mutate(id = 1:nrow(.))
 
 ### Create clean dataframe
