@@ -336,7 +336,7 @@ table(CleanData$ses_proprio)
 # State intervention ####
 ###******************************************###
 
-# Function to transform scales on 0-1
+# Fonction pour transformer les échelles de 0 à 1
 minmaxNormalization <- function(x) {
   return((x-min(x))/(max(x)-min(x)))
 }
